@@ -1,0 +1,8 @@
+[build]
+  base = "/"
+
+  # next exportの出力先
+  publish = "out/"
+
+  # next buildからのnext exportでファイル生成
+  command = "yarn next build && yarn next export"
